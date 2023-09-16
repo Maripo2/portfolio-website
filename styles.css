@@ -1,0 +1,166 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    z-index: 300;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    background: red;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.9);
+   
+    
+}
+
+body{
+    z-index: 100;
+min-height: 100vh;
+background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); 
+background-repeat: no-repeat;
+}
+
+
+/*HEADER AND TITLE*/
+header{
+   text-align: center;
+   padding:  13rem 0;
+    display: grid;
+  
+    padding-bottom: 45rem;
+}
+
+.pclass{
+  
+   
+    color: orangered;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 1.7rem;
+    
+}
+
+.title{
+   padding-top:20rem;
+ 
+    color: whitesmoke;
+    font-weight: lighter;
+    font-size: 2.8rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', 
+    Arial, sans-serif;
+} 
+/*HEADER AND TITLE END*/
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62,5%;
+}
+ a {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    padding: 7px;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+   
+    
+}
+
+.projects{
+    color: whitesmoke;
+    font-weight: lighter;
+    font-size: 2.3rem;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', 
+    Arial, sans-serif;
+    padding-top: 8rem;
+   
+    
+}
+.projects{
+    background: #45567d;
+    padding-bottom: 100rem;
+    text-align: center;
+    
+ 
+   
+
+}
+.contact{
+   display: flex;
+    font-size: 1.4rem;
+    justify-content: center;
+   text-align: center;
+   max-height:  100vh;
+   font-size: 2rem;
+   padding-bottom: 10rem;
+   
+   
+    text-decoration: none;
+  }
+ 
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  h4{
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+   
+    padding-bottom: 3rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+   
+  }
+  .fa{
+    
+        font-size: 5rem;
+        text-shadow: 2px 2px 1px #1f1f1f;
+        transition: transform 0.3s ease-out;
+    
+  }
+  .project-image {
+    height: calc(100% - 6.8rem);
+    max-width: 30%;
+padding-left: 20rem;
+padding-right: 20rem;
+padding-top: 0rem;
+    object-fit: cover;
+    padding-top: 10rem;
+   
+    
+   
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    
+}
+
+.code {
+    color: rgb(255,255,255);
+    transition: color 0.3s ease-out;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+   
+right: 49rem;
+top: 24rem;   
+position: relative;
+
+} 
+
+.project-image:hover{
+    opacity: 70%;
+}
+
+.code:hover{
+    opacity: 70%;
+}
